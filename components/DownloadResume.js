@@ -20,7 +20,7 @@ const DownloadResume = () => {
     };
 
     // Generate and download the PDF
-    pdfMake.createPdf(docDefinition).download('resume.pdf');
+    pdfMake.createPdf(docDefinition).download('Quotation.pdf');
   };
 
   return (
